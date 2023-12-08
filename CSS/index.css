@@ -108,7 +108,7 @@ body{
 
 #about-section-side-1 span{
     color: var(--font-color-1);
-    font-weight: 00;
+    font-weight: 400;
 }
 
 #about-section-side-2{
@@ -188,6 +188,12 @@ body{
     justify-content: space-around;
 }
 
+.panel-3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .skill-panel{
     
     background: var(--color-2);
@@ -236,6 +242,11 @@ body{
 }
 
 .skill-panel .github{
+    transform: translateY(10px);
+    width: 63px;
+}
+
+.skill-panel .c{
     transform: translateY(10px);
     width: 63px;
 }
@@ -473,4 +484,199 @@ body{
     color: var(--font-color-3);
     font-weight: 500;
     font-size: 13px;
+}
+
+
+@media screen and (max-width: 767px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    #navbar{
+        max-width: 100vw;
+        padding: 10px;
+    }
+
+    #navbar img{
+        display: none;
+    }
+
+    #navbar button{
+        font-size: 9px;
+        width: 50px;
+        height: 30px;
+        padding: 0;
+    }
+
+    #about-section{
+        margin-top: 20px;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #about-section #about-section-side-1{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #about-section #about-section-side-2{
+        width: 80%;
+        text-align: center;
+        display: block;
+    }
+
+    #about-section #about-section-side-2 img{
+        width: 200px;  
+    }
+
+    #about-section #about-section-side-2 p{
+        font-size: 60px;
+        left: -65px;
+        top: 220px;
+    }
+
+    #skills-section{
+        margin-top: 40px;
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    #skills-section-panels{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .panel-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panel-1>*{
+        margin-top: 30px;
+    }
+
+    .panel-2{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panel-2>*{
+        margin-top: 30px;
+    }
+
+    .panel-3{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panel-3>*{
+        margin-top: 30px;
+    }
+
+    #projects-section{
+        max-width: 100vw;
+    }
+
+    #project-tech-select{
+        width: 80%;
+    }
+
+    .project-tech-select #project-section-panels{
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-tech-select #project-section-panels .project-panel{
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid var(--font-color-1);
+    }
+
+    #project-section-panels .project-panel-side-1{
+        width: 100%;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    #project-section-panels .project-panel-side-1 img{
+        width: 100%;
+    }
+
+    #project-section-panels .project-panel-side-1 .links-div img{
+        width: 25px;
+        opacity: 1;
+    }
+
+    #project-section-panels .project-panel-side-2{
+        margin-top: 30px;
+        width: 100%;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    #project-section-panels .project-panel-side-2 h1{
+        text-align: center;
+    }
+
+    #project-section-panels .project-panel-side-2 p{
+        text-align: center;
+    }
+    
+    #project-section-panels .project-panel-side-2 .technologies-div{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #project-section-panels .project-panel-side-2 .technologies-div p{
+        font-size: 10px;
+    }
+    #project-section-panels .project-panel-side-2 .technologies-div img{
+        width: 20px;
+    }
+
+    #final-section{
+        max-width: 100vw;
+        flex-direction: column;
+    }
+
+    #resume-section{
+        width: 100%;
+    }
+
+    #resume-btn{
+        margin: 0;
+    }
+
+    #socials-section{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #socials-section .socials-section-links{
+        margin-top: 0px;
+    }
+
+    #socials-section img{
+        opacity: 1;
+    }
+
+    #socials-section img:hover{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    #footer{
+        max-width: 100vw;
+    }
 }

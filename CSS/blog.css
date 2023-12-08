@@ -235,3 +235,13 @@ body{
     color: var(--color-5);
 }
 
+@media screen and (max-width: 767px) {
+    #content {
+        padding: 20px;
+        max-width: 80vw;
+    }
+
+    #content button {
+        max-width: 100vw;
+    }
+}
