@@ -1,3 +1,8 @@
+// Easter Egg - inspired by ForrestKnight
+console.log(
+    "%c Hey! Did you like my portfolio? 🤔",
+    "color: #FF6000; font-weight: bold; font-size: 24px;"
+)
 
 // About Btn
 const aboutBtn = document.getElementById("about-btn");

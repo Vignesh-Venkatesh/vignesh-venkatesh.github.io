@@ -211,6 +211,35 @@ body{
     transform: translateY(-10px);
 }
 
+.skill-panel .python{
+    transform: translateY(10px);
+}
+
+.skill-panel .html{
+    transform: translateY(10px);
+    width: 60px;
+}
+
+.skill-panel .css{
+    transform: translateY(10px);
+    width: 63px;
+}
+
+.skill-panel .js{
+    transform: translateY(10px);
+    width: 63px;
+}
+
+.skill-panel .git{
+    transform: translateY(10px);
+    width: 63px;
+}
+
+.skill-panel .github{
+    transform: translateY(10px);
+    width: 63px;
+}
+
 #projects-section{
     margin-top: 100px;
 }
